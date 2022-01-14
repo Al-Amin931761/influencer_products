@@ -9,6 +9,7 @@ body{
 
 .flexiable-section{
     display: flex;
+ 
     }
     
 .half-width{
@@ -20,4 +21,16 @@ body{
 
 .information{
     color: #787885 ;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.collections{
+    width: 329px;
+    height: 476px;
+    border: 1px solid red;
+margin-bottom: 30px;
+padding-left: 30px;
 }
