@@ -5,6 +5,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
+
 }
 
 .flexiable-section{
@@ -33,4 +34,7 @@ body{
     border: 1px solid red;
 margin-bottom: 30px;
 padding-left: 30px;
+}
+footer{
+    background-color: aliceblue
 }
