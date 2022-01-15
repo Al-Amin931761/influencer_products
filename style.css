@@ -80,17 +80,37 @@ margin-bottom: 30px;
 .collections{
     width: 329px;
     height: 476px;
-    border: 1px solid red;
+    border: 1px solid #AAAAAA;
 margin-bottom: 30px;
 padding-left: 30px;
 }
+
+
 footer{
-    background-color: aliceblue;
+    background-color: #0A0826;
     display: grid;
+
 }
 .footer-align{
-    text-align: center;  
+    text-align: center; 
+    color: white; 
+ margin-top: 50px;
+ margin-bottom: 50px;
 
+}
+/* footer icons color  */
+.fa-instagram, .fa-facebook, .fa-twitter, .fa-youtube{
+color: white;
+height: 32px;
+width: 32px;
 }
 
 
+.see-more{
+    text-align: right;
+    margin-top: 30px;
+}
+.see-more-link{
+    text-decoration: none;
+    color: #E02C6D;
+}
