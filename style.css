@@ -1,14 +1,15 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
     margin-left: 50px;
     margin-right: 50px;
-
 }
+
 
 /* navigation bar styles */
 nav > ul{
@@ -23,15 +24,16 @@ nav li{
 nav li a{
     text-decoration: none;
     color: black;
-
 }
 
+
 /* header section  */
-.flexiable-section{
+.flexible-section{
      display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 69px;
     }
+
 
     /* button styles */
 .button-one{
@@ -42,24 +44,31 @@ nav li a{
     border-radius: 25px;
     font-weight: 700;
 }
+
+
+/* header image  */
 .header-image{
         margin-left: 200px;
         background-image: url(images/circle-design.svg);
         background-repeat: no-repeat;
         height: 475px;
-        width: 475px;
-        
+        width: 475px;  
     }
+
     .header-image img{
         height: 440px;
         height:414px;
     }
 
+
+/* navigation  */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+/* rating  */
 .star, .fa-star, .fa-star-half-alt{
     color: #FB8200;
 }
@@ -74,12 +83,11 @@ text-align: center;
 margin-top: 100px;
 margin-bottom: 30px;
 }
-
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
 }
+
 .collections{
     width: 329px;
     height: 476px;
@@ -99,19 +107,19 @@ box-shadow: 0 30px 35px rgba(0, 0, 0, .2);
     font-weight: 700;
 }
 
+/* footer  */
 footer{
     background-color: #0A0826;
     display: grid;
-
 }
 .footer-align{
     text-align: center; 
     color: white; 
  margin-top: 50px;
  margin-bottom: 50px;
-
-
 }
+
+
 /* footer icons color  */
 .fa-instagram, .fa-facebook, .fa-twitter, .fa-youtube{
 color: white;
@@ -120,6 +128,7 @@ width: 32px;
 }
 
 
+/* See More Link  */
 .see-more{
     text-align: right;
     margin-top: 30px;
@@ -128,7 +137,9 @@ width: 32px;
     text-decoration: none;
     color: #E02C6D;
 }
-.flexiable-section{
+
+/* flexible  */
+.flexible-section-two{
     display: grid;
     margin-bottom: 10%;
     justify-content: space-between;
