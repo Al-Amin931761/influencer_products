@@ -5,6 +5,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
@@ -30,13 +32,14 @@ nav li a{
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 69px;
     }
+
     /* button styles */
 .button-one{
     text-decoration: none;
     background-color:#E02C6D;
     color: white;
     padding: 6px 11px;
-    border-radius: 30px;
+    border-radius: 25px;
     font-weight: 700;
 }
 .header-image{
@@ -81,10 +84,20 @@ margin-bottom: 30px;
     width: 329px;
     height: 476px;
     border: 1px solid #AAAAAA;
-margin-bottom: 30px;
+    border-radius: 10px;
+margin-bottom: 100px;
 padding-left: 30px;
+box-shadow: 0 30px 35px rgba(0, 0, 0, .2);
 }
 
+
+/* Submit Button  */
+.submit-button{
+    background-color: #E02C6D;
+    padding: 6px 11px;
+    color: white;
+    font-weight: 700;
+}
 
 footer{
     background-color: #0A0826;
@@ -96,6 +109,7 @@ footer{
     color: white; 
  margin-top: 50px;
  margin-bottom: 50px;
+
 
 }
 /* footer icons color  */
@@ -114,3 +128,11 @@ width: 32px;
     text-decoration: none;
     color: #E02C6D;
 }
+.flexiable-section{
+    display: grid;
+    margin-bottom: 10%;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    
+  
