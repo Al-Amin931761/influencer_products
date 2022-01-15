@@ -146,4 +146,195 @@ width: 32px;
     grid-template-columns: repeat(2, 1fr);
     }
     
+
+    /* Animation */
+    .banner-title{
+        font-size: 60px;
+        white-space: nowrap;
+        position: relative;
+        color: transparent;
+    }
+    .banner-title::before{
+        content: 'Start Your Journey as';
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: darkgreen;
+        animation: normal 4s;
+        animation: typing 4s linear infinite;
+    }
+    
+
+    @keyframes typing {
+        0% {
+            content: 'S|';
+        }
+    
+        3% {
+            content: 'St|';
+        }
+    
+        6% {
+            content: 'Sta|';
+        }
+    
+        9% {
+            content: 'Star|';
+        }
+    
+        12% {
+            content: 'Start|';
+        }
+    
+        15% {
+            content: 'Start Y|';
+        }
+    
+        18% {
+            content: 'Start Yo|';
+        }
+    
+        21% {
+            content: 'Start You|';
+        }
+    
+        24% {
+            content: 'Start Your|';
+        }
+    
+        27% {
+            content: 'Start Your |';
+        }
+    
+        30% {
+            content: 'Start Your J|';
+        }
+    
+        33% {
+            content: 'Start Your Jo|';
+        }
+    
+        36% {
+            content: 'Start Your Jou|';
+        }
+    
+        39% {
+            content: 'Start Your Jour|';
+        }
+    
+        42% {
+            content: 'Start Your Journ|';
+        }
+    
+        45% {
+            content: 'Start Your Journe|';
+        }
+        48% {
+            content: 'Start Your Journey|';
+        }
+    
+        51% {
+            content: 'Start Your Journey |';
+        }
+    
+        54% {
+            content: 'Start Your Journey a|';
+        }
+    
+        57% {
+            content: 'Start Your Journey as|';
+        }
+
+        60%,
+        78% {
+            content: 'Start Your Journey as|';
+        }
+
+        79% {
+            content: 'Start Your Journey a|';
+        }
+
+        80% {
+            content: 'Start Your Journey |';
+        }
+
+        81% {
+            content: 'Start Your Journey|';
+        }
+
+        82% {
+            content: 'Start Your Journe|';
+        }
+    
+        83% {
+            content: 'Start Your Journ|';
+        }
+    
+        84% {
+            content: 'Start Your Jour|';
+        }
+    
+        85% {
+            content: 'Start Your Jou|';
+        }
+    
+        86% {
+            content: 'Start Your Jo|';
+        }
+    
+        87% {
+            content: 'Start Your J|';
+        }
+    
+        88% {
+            content: 'Start Your |';
+        }
+    
+        89% {
+            content: 'Start Your|';
+        }
+    
+        90% {
+            content: 'Start You|';
+        }
+    
+        91% {
+            content: 'Start Yo|';
+        }
+    
+        92% {
+            content: 'Start Y|';
+        }
+    
+        93% {
+            content: 'Start |';
+        }
+    
+        94% {
+            content: 'Start|';
+        }
+    
+        95% {
+            content: 'Star|';
+        }
+    
+        96% {
+            content: 'Sta|';
+        }
+    
+        97% {
+            content: 'St|';
+        }
+    
+        98% {
+            content: 'S|';
+        }
+        99% {
+            content: '|';
+        }
+    
+        100% {
+            content: '|';
+        }
+    }
   
