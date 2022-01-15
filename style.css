@@ -8,14 +8,46 @@ body{
 
 }
 
-.flexiable-section{
+/* navigation bar styles */
+nav > ul{
     display: flex;
- 
+}
+
+nav li{
+    list-style: none;
+    margin-right: 3em;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* header section  */
+.flexiable-section{
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 69px;
     }
-    
-.half-width{
-        width:50%; 
+.header-image{
+        margin-left: 200px;
+        background-image: url(images/circle-design.svg);
+        background-repeat: no-repeat;
+        height: 475px;
+        width: 475px;
+        
     }
+    .header-image img{
+        height: 440px;
+        height:414px;
+    }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .star, .fa-star, .fa-star-half-alt{
     color: #FB8200;
 }
@@ -24,9 +56,17 @@ body{
     color: #787885 ;
 }
 
+  /* Popular Collection */
+.section-title{
+text-align: center;
+margin-top: 100px;
+margin-bottom: 30px;
+}
+
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
 }
 .collections{
     width: 329px;
@@ -36,5 +76,12 @@ margin-bottom: 30px;
 padding-left: 30px;
 }
 footer{
-    background-color: aliceblue
+    background-color: aliceblue;
+    display: grid;
 }
+.footer-align{
+    text-align: center;  
+
+}
+
+
