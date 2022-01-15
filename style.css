@@ -30,6 +30,15 @@ nav li a{
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 69px;
     }
+    /* button styles */
+.button-one{
+    text-decoration: none;
+    background-color:#E02C6D;
+    color: white;
+    padding: 6px 11px;
+    border-radius: 30px;
+    font-weight: 700;
+}
 .header-image{
         margin-left: 200px;
         background-image: url(images/circle-design.svg);
